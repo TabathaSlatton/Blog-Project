@@ -3,7 +3,6 @@ import Navbar from './Navbar';
 
 // root component
 function App() {
-  // we can write valid javaScript before the return
 
   return (
     <div className="App">

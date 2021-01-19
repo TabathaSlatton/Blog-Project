@@ -3,9 +3,9 @@ import BlogList from './BlogList'
 
 const Home = () => {
     const [blogs, setBlogs] = useState([
-        { title: 'My new website', body: "Wowwwww I'm like sooooooooooo cool", author: 'Ken', id: 1 },
-        { title: 'Welcome party!', body: 'Bark Bark Bark', author: 'Luma', id: 2 },
-        { title: 'Web dev top tips', body: "There's this one video game...it's reaaalllllyyyy coool", author: 'Scott', id: 3 }
+        { title: 'Cracking the Coding Interview', body: "This book is really helpful and has shown me what an ever-evolving world coding is. I'm very inspired for the next steps of my journey.", author: 'Ken', id: 1 },
+        { title: 'How to Train your Puppy', body: 'Bark Bark Walking Bark Bark Fetch Bark Bark Treats..SOOO FETCH', author: 'Luma', id: 2 },
+        { title: 'Eloquent JavaScript', body: "Today I read chapter one. It was really great and I'm excited to continue to learn more about building my JS skills!", author: 'Scott', id: 3 }
     ])
 
     return (
