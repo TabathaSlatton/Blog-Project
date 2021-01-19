@@ -1,13 +1,42 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+
+/* base styles */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Yusei Magic", sans-serif;
+  color: #88665d;
+  background-color: #f3f7f2;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #c2b97f;
+}
+.navbar h1 {
+  color: #35605a;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #35605a;
+}
+.content {
+  max-width: 90%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: gainsboro;
+  border: 4px solid #35605a;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2 {
+  background-color: gainsboro;
 }
