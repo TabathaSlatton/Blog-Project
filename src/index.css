@@ -71,3 +71,10 @@ h2 {
   text-align: center;
   font-size: 30px;
 }
+
+#loading {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  background-color: #f3f7f2;
+}
