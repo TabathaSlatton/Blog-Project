@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react'
 import BlogList from './BlogList'
 import useFetch from './useFetch';
 // npx json-server --watch data/db.json --port 8000
@@ -9,7 +8,7 @@ const Home = () => {
 
     return (
         <div className="home">
-            { error && <div>{ error }</div> }
+            { error && <div id="loading">{ error }</div> }
             { isPending && <div id="loading">Loading...</div> }
             { blogs && <BlogList blogs={blogs} title="All Blogs" /> }
             {/* <BlogList blogs={blogs.filter(blog => blog.author === "Ken")} title="Ken's Blogs"/> */}
