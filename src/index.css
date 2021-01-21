@@ -62,7 +62,8 @@
 }
 
 .blog-preview p,
-h2 {
+h2,
+form {
   background-color: #f3f7f2;
 }
 
@@ -87,21 +88,23 @@ h2 {
 
 .blog-details h2 {
   font-size: 20px;
-  color: #3f97b9;
+  color: #35605a;
   font-size: 40px;
   margin-bottom: 3px;
+  padding-bottom: 10px;
 }
 .blog-details div {
-  /* margin: 20px 0; */
+  padding-top: 20px;
   background-color: #f3f7f2;
 }
 
 .blog-details p {
-  /* margin: 20px 0; */
+  padding-top: 20px;
   background-color: #f3f7f2;
+  font-size: 20px;
 }
 .blog-details button {
-  background: #4d92ca;
+  background: #35605a;
   color: #fff;
   border: 0;
   padding: 8px;
@@ -111,34 +114,42 @@ h2 {
 
 /* create form */
 .create {
-  max-width: 400px;
+  background-color: #f3f7f2;
+  max-width: 90%;
   margin: 0 auto;
   text-align: center;
 }
 .create label {
+  background-color: #f3f7f2;
   text-align: left;
   display: block;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 .create h2 {
-  font-size: 20px;
-  color: #f1356d;
-  margin-bottom: 30px;
+  font-size: 30px;
+  color: #35605a;
+  /* margin-bottom: 30px; */
 }
 .create input,
 .create textarea,
 .create select {
   width: 100%;
-  padding: 6px 10px;
-  margin: 10px 0;
+  padding: 10px;
+  padding-bottom: 10px;
+
+  /* margin: 10px 0; */
   border: 1px solid #ddd;
+  background-color: #f3f7f2;
   box-sizing: border-box;
   display: block;
 }
 .create button {
-  background: #f1356d;
+  background: #35605a;
+  width: 20%;
+  margin-top: 15px;
   color: #fff;
-  border: 0;
-  padding: 8px;
-  border-radius: 8px;
+  border: none;
+  padding: 10px;
   cursor: pointer;
 }
